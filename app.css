@@ -1,0 +1,56 @@
+header{
+    text-align: center;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    top: 0%;
+    right: 10px;
+    width: 120px;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.room{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 50px;
+    align-items: center;
+    background-color: olive;
+    margin-bottom: 50px;
+    border-radius: 15px 50px 30px 5px;
+}
+.room img{
+    width: auto;
+    height: 700px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+
+.room:hover{
+    background-color: orangered;
+    opacity: 80%;
+}
+
+.flip{
+    grid-template-columns: 2fr 1fr;
+    background-color: pink;
+}
+
+.flip img{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 30px;
+}
+.reverse{
+    grid-row-start: 1;
+    margin-left: 15px;
+}
+
